@@ -25,7 +25,7 @@ public class Contador
 
          System.out.println("\nFim do programa!");
       }
-      catch (Exception e)
+      catch (ParametrosInvalidosException e)
       {
          System.out.println("O segundo parâmetro deve ser maior que o primeiro!");
       }
